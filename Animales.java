@@ -33,18 +33,4 @@ class Gato extends Animales{
         System.out.println("El gato es negro");
     }
 }
-
-public class Main{
-    public static void main(String[] args){
-
-        Perro perro = new Perro();
-        perro.sonido();
-        perro.Casa();
-        perro.Color();
-
-        Gato gato = new Gato();
-        gato.sonido();
-        gato.Casa();
-        gato.Color();
-    }
 }
